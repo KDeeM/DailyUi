@@ -1,0 +1,130 @@
+@import url("base.css");
+
+.content{
+  position: relative;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.welcome-container,
+.sign-up-container{
+  position: relative;
+  height: 100%;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* ##### WELCOME CONTAINER ##### */
+.welcome-container{
+  width: 60%;
+  align-items: flex-end;
+
+  background-color: var(--col-green-2);
+}
+
+.welcome-text{
+  position: relative;
+  margin: 0 5rem 0 0;
+  max-width: 500px;
+}
+
+.page-title{
+  font-size: 3rem;
+}
+.page-title span{
+  margin: -1.5rem 0 0;
+}
+
+.par1, .par2, .benefits-list{
+  color: var(--col-green-3);
+}
+.par1{
+  margin: 1.5rem 0 0;
+}
+.par2,
+.benefits-list{
+  margin: 1rem 0 0;
+}
+.benefits-list{
+  list-style-type: circle;
+  padding: 0 0 0 1.5rem;
+}
+
+.hero-image{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+
+  transform: translate(66%,33%);
+}
+/* ##### SIGN UP CONTAINER ##### */
+.sign-up-container{
+  background-color: var(--col-white-2);
+}
+
+.sign-up-form{
+  margin: 0 0 0 3rem;
+  max-width: 320px;
+}
+
+.sign-up-form > *{
+  margin: 1rem 0 0;
+}
+.sign-up-form h2:nth-child(1){
+  margin: 0;
+}
+
+.form_title{
+  font-size: 2rem;
+}
+
+.form_field{
+
+}
+.form_field .form_label{
+  padding: 0 0 0 .5rem;
+  text-transform: capitalize;
+  color: var(--col-green-3);
+}
+.form_field .form_input{
+  width: 100%;
+  display: block;
+
+  padding: .5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--col-green-2);
+  background-color: var(--col-green-1);
+}
+.tos-statement{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 100%;
+  color: var(--col-green-3);
+}
+.tos-statement a,
+.tos-statement a:active,
+.tos-statement a:hover,
+.tos-statement a:visited
+{
+  color: var(--col-green-4);
+}
+
+.sign-up-form button[type="submit"]{
+  display: block;
+  padding: .25rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: var(--ft-Sigmar);
+  font-size: 1.2rem;
+  color: var(--col-green-1);
+  background-color: var(--col-green-4);
+  border-radius: .5rem;
+}

@@ -1,0 +1,40 @@
+/* Vatiable declaration */
+:root{
+  /* ### COLORS ### */
+  /* greens from lightest to darkest */
+  --col-green-1: #D2EEE9;
+  --col-green-2: #8DE7D6;
+  --col-green-3: #0A6958;
+  --col-green-4: #083930;
+  /* faded white */
+  --col-white: #FDF4F4;
+
+  /* ### FONTS ### */
+  --ft-Oswald: 'Oswald', sans-serif;
+  --ft-Sigmar: 'Sigmar One', cursive;
+}
+
+/* Clear Fix */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  outline: none;
+  border: none;
+}
+
+.line-split{
+  display: flex;
+  flex-direction: column;
+}
+
+body{
+  font-family: var(--ft-Oswald);
+  font-size: 1.2rem;
+}
+.title{
+  font-family: var(--ft-Sigmar);
+  color: var(--col-green-4);
+}
